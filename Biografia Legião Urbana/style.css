@@ -1,0 +1,110 @@
+Header{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin:0px;
+    padding: 10px;
+    color: rgb(239, 238, 236);
+
+    background: linear-gradient(
+        100deg,
+        hsl(0, 0%, 13%) 0%,
+        #323232 25%,
+        #3f3f3f 35%,
+        hsla(0, 0%, 33%) 50%,
+        hsl(0, 0%, 55%) 75%,
+        hsla(0, 0%, 100%) 100%
+        );
+   
+}
+
+nav ul {
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+  
+    
+    }
+
+    nav ul li {
+        display:inline ;
+        margin: 20px;
+    
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            }
+            
+            button{
+                color: #ffffff;
+                border: 3px solid rgb(130, 127, 127);
+                border-radius: 15px 15px 15px 15px;
+                padding: 5px 10px 5px 10px;
+                cursor: pointer;
+                background-color: #333;
+        
+            }
+            button:hover{
+                background-color: rgb(250, 244, 244);
+                color: #333;
+            }
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ddddde;
+    transition: background-color 0.3s;
+}
+.light-mode{
+    background-color: #ddddde;
+    color: #3f3f3f;
+}
+.dark-mode{
+    background-color: #333;
+    color:#fff
+}
+
+
+
+/*texto das pagina-*s*/
+.textobiografia{
+    text-align:center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding: 80px;
+    
+}
+
+
+/*imagens das paginas*/
+.imgbio{
+    padding-left: 450px;
+}
+.imgrenatorusso{
+    padding-left: 500px;
+}
+.imgdado{
+    padding-left: 550px;
+}
+.imgmarcelo{
+    padding-left: 520px;
+}
+.imgrenatorocha{
+    padding-left: 560px;
+}
+
+
+
+/*titulos */
+  h2{
+    text-align: center;
+    padding-top: 10px;
+  }            
+           
+     
+
+
+        
